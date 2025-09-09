@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MANACO - Tienda</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>MANACO - Tienda</title>
+
 </head>
-
 <body>
-    <header>
-        <h2>Encabezado principal</h2>
-        <nav>
-            <h2>Menú principal</h2>
-            <a href="#" aria-label="Inicio">MANACO</a>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+  
+  <a href="#" class="skip-link">Saltar al contenido principal</a>
 
-    <main>
-        <section>
-            <h1>Calzado que impulsa tu paso</h1>
-            <p>Comodidad y estilo en cada movimiento.</p>
-        </section>
+  <header>
+    <h2 class="sr-only">Encabezado principal</h2>
+    <nav>
+      <h2 class="sr-only">Menú principal</h2>
+      <a href="#" aria-label="Página de inicio MANACO">MANACO</a>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <section>
-            <h2>Productos</h2>
-            <ul>
-                <li>
-                    <article>
-                        <h3>Producto 1</h3>
-                        <p>$00.00</p>
-                        <button>Comprar</button>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <h3>Producto 2</h3>
-                        <p>$00.00</p>
-                        <button>Comprar</button>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <h3>Producto 3</h3>
-                        <p>$00.00</p>
-                        <button>Comprar</button>
-                    </article>
-                </li>
-            </ul>
-        </section>
-    </main>
+  <main id="contenido">
+    <section id="inicio">
+      <h1>Calzado que impulsa tu paso</h1>
+      <p>Comodidad y estilo en cada movimiento.</p>
+    </section>
 
-    <footer>
-        <p><small>Copyright 2025 MANACO</small></p>
-    </footer>
+    <section aria-labelledby="productos-title">
+      <h2 id="productos-title">Productos</h2>
+      <ul>
+        <li>
+          <article>
+            <h3>Producto 1</h3>
+            <div class="caja" role="img" aria-label="Zapato modelo 1"></div>
+            <p>$00.00</p>
+            <button type="button">Comprar</button>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Producto 2</h3>
+            <div class="caja" role="img" aria-label="Zapato modelo 2"></div>
+            <p>$00.00</p>
+            <button type="button">Comprar</button>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Producto 3</h3>
+            <div class="caja" role="img" aria-label="Zapato modelo 3"></div>
+            <p>$00.00</p>
+            <button type="button">Comprar</button>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p><small>Copyright 2025 MANACO</small></p>
+  </footer>
 </body>
-
-
 </html>
