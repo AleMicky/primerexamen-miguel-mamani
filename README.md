@@ -30,3 +30,13 @@
 
 5. **Jerarquía oculta para navegación**  
    - Se usaron encabezados secundarios (`h2` con clase `sr-only`) para identificar la navegación y encabezado principal sin añadir ruido visual.
+
+## 🔍 SEO
+
+Se implementaron decisiones clave de **SEO on-page**:
+
+1. **Título único (`<title>`)**: “MANACO - Calzado que impulsa tu paso”, con marca y propuesta de valor.  
+2. **Meta descripción**: 150–160 caracteres, texto claro y atractivo para mejorar CTR en resultados de búsqueda.  
+3. **Open Graph (OG)**: etiquetas mínimas (`og:title`, `og:description`, `og:image`, `og:type`) para optimizar la previsualización en redes sociales.  
+4. **Encabezados jerárquicos**: uso coherente de `<h1>`, `<h2>` y `<h3>` para mejorar legibilidad y SEO semántico.  
+5. **Contenido estructurado**: productos dentro de `<ul>` y `<article>`, lo que facilita la indexación y comprensión por buscadores.
